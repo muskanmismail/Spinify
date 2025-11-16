@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Spinify</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  
+    <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <!-- Font Awesome Icons  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+
+<!-- Top Navbar -->
+    <nav class="navbar navbar-expand-lg topbar">
+      <div class="container-fluid">
+       
+        <a class="navbar-brand ms-3" href="#" >
+          <img src="./assets/images/spinifylogo2-removebg-preview.png"  alt="Spinify Fan Company Logo" style="size: 150px;">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="topNavbar">
+        
+          <form class="d-flex mx-auto my-3 my-lg-0" role="search">
+            <input class="form-control me-2 search-input" type="search" placeholder="Search for fans, appliances..." aria-label="Search">
+            <button class="btn btn-success" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+
+       
+           
+          
+          <div class="icon-group d-flex justify-content-center mt-2 mt-lg-0 me-3">
+            <i class="bi bi-person" title="Account" data-bs-toggle="modal" data-bs-target="#profileModal"></i>
+            <i class="bi bi-heart" title="Wishlist" data-bs-toggle="modal" data-bs-target="#wishlistModal"></i>
+            <i class="bi bi-shuffle" title="Compare" data-bs-toggle="modal" data-bs-target="#compareModal"></i>
+            <i class="bi bi-cart" title="Cart" data-bs-toggle="modal" data-bs-target="#cartModal"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Category Bar -->
+    <nav class="navbar navbar-expand-lg category-bar">
+      <div class="container-fluid">
+        <button class="navbar-toggler text-white border-0" type="button" data-bs-toggle="collapse" data-bs-target="#categoryNav">
+          <i class="bi bi-list"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="categoryNav">
+          <div class="navbar-nav mx-auto text-center">
+               <a class="nav-link" href="index.html"> Home</a>     
+            <a class="nav-link" href="products.html">Products</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
+            <a class="nav-link" href="about us.html">About Us</a>
+            <a class="nav-link" href="contact.html">Contact Us</a>
+            <a class="nav-link" href="Faqs.html">FAQs</a>
+             <a href="#" class="login me-2" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
+          </div>
+        </div>
+        <div class="text-white d-none d-lg-block me-3">
+          <i class="bi bi-telephone-fill"></i> +92 324 3564009
+        </div>
+      </div>
+    </nav>
+
+
+     <div class="container py-4">
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html" class="back-link">Home</a></li>
+                <li class="breadcrumb-item"><a href="index.html" class="back-link">Nav</a></li>
+                <li class="breadcrumb-item active" aria-current="page">FAQs</li>
+            </ol>
+        </nav>
+        </div>
+   
+   
+    <div class="banner">
+        <h1>SPINIFY FAQS</h1>
+        <p>Frequently Asked Questions <i class="fas fa-question-circle"></i></p>
+    </div>
+
+    
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                
+                <!-- General Questions -->
+                <h2 class="section-title1">General Questions</h2>
+                <p class="section-subtitle">Learn about Spinify Fans and our products</p>
+
+                <div class="accordion" id="generalAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gen1">
+                                What did "fans" mean?
+                            </button>
+                        </h2>
+                        <div id="gen1" class="accordion-collapse collapse" data-bs-parent="#generalAccordion">
+                            <div class="accordion-body">
+                                The term "fans" refers to electrical appliances used to create airflow for cooling or ventilation purposes. They are essential household appliances in many parts of the world, particularly in warm climates.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gen2">
+                                Why do we use fans?
+                            </button>
+                        </h2>
+                        <div id="gen2" class="accordion-collapse collapse" data-bs-parent="#generalAccordion">
+                            <div class="accordion-body">
+                                Fans are used for ventilation and to create airflow for cooling purposes, especially in warm climates. They help maintain comfortable temperatures, improve air circulation, and provide cost-effective cooling compared to air conditioning systems.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gen3">
+                                Which is the best AC DC fan in Pakistan?
+                            </button>
+                        </h2>
+                        <div id="gen3" class="accordion-collapse collapse" data-bs-parent="#generalAccordion">
+                            <div class="accordion-body">
+                                <strong>Spinify Fans</strong> is among the top manufacturers of AC/DC fans with BLDC technology in Pakistan. We pride ourselves on innovation, quality, and customer satisfaction with cutting-edge technology and reliable performance.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gen4">
+                                What are Spinify Fans' achievements?
+                            </button>
+                        </h2>
+                        <div id="gen4" class="accordion-collapse collapse" data-bs-parent="#generalAccordion">
+                            <div class="accordion-body">
+                                Spinify Fans has gathered numerous accolades, including the <strong>FPCCI Best Electric Fan Manufacturer Award 2024</strong>, awarded by the President of Pakistan. This recognition marks a significant milestone in our innovative pursuit and commitment to excellence.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technical Information -->
+                <h2 class="section-title1 mt-5">Technical Information</h2>
+                <p class="section-subtitle">All about BLDC technology and fan features</p>
+
+                <div class="info-box">
+                    <div class="category-badge">
+                        <i class="fas fa-bolt"></i> BLDC Technology
+                    </div>
+                    <h3>What is BLDC Technology and what affiliation does Spinify Fans have with it?</h3>
+                    <p>
+                        Way back in 2013, Spinify Fans was the <strong>first Pakistan Fan Manufacturer</strong> to successfully develop and implement BLDC (Brushless Direct Current) Technology in ceiling fans.
+                    </p>
+                    <p style="margin-top: 15px;">
+                        <strong>Key Benefits:</strong><br>
+                        • 20% more efficient than conventional AC motors<br>
+                        • Precise speed control<br>
+                        • Almost entirely noiseless operation<br>
+                        • No heating issues even during prolonged use<br>
+                        • Superior performance and durability
+                    </p>
+                    <p style="margin-top: 15px;">
+                        Spinify Fans holds the mantle proudly of single-handedly lifting the fan industry with this revolutionary technology.
+                    </p>
+                    <div class="achievement-badge">
+                        <i class="fas fa-star"></i> Industry Pioneer Since 2013
+                    </div>
+                </div>
+
+                <div class="accordion" id="techAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tech1">
+                                How do BLDC motors compare to traditional motors?
+                            </button>
+                        </h2>
+                        <div id="tech1" class="accordion-collapse collapse" data-bs-parent="#techAccordion">
+                            <div class="accordion-body">
+                                BLDC motors are significantly more efficient, offering 20% better energy consumption than conventional AC motors. They provide smoother operation with virtually no noise, better temperature control, and require less maintenance due to the absence of brushes.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tech2">
+                                What makes Spinify fans energy-efficient?
+                            </button>
+                        </h2>
+                        <div id="tech2" class="accordion-collapse collapse" data-bs-parent="#techAccordion">
+                            <div class="accordion-body">
+                                Our BLDC technology combined with precision engineering ensures minimal power loss. The brushless motor design reduces friction and heat generation, allowing the fan to operate at peak efficiency while consuming less electricity than traditional fans.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pricing-->
+                <h2 class="section-title1 mt-5">Pricing & Availability</h2>
+                <p class="section-subtitle">Information about our products and pricing</p>
+
+                <div class="accordion" id="pricingAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#price1">
+                                What is the price of GFC 50 watt fan in Pakistan?
+                            </button>
+                        </h2>
+                        <div id="price1" class="accordion-collapse collapse" data-bs-parent="#pricingAccordion">
+                            <div class="accordion-body">
+                                Prices may vary depending on current market conditions, retailers, and ongoing promotions. For accurate and up-to-date pricing information, please <strong>visit GFC's official website or contact our authorized retailers</strong>. We recommend checking with multiple dealers for the best deals.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#price2">
+                                Where can I buy Spinify fans?
+                            </button>
+                        </h2>
+                        <div id="price2" class="accordion-collapse collapse" data-bs-parent="#pricingAccordion">
+                            <div class="accordion-body">
+                                Spinify fans are available through our network of authorized retailers across Pakistan. You can also contact our customer service for a list of nearby dealers or direct purchase options.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#price3">
+                                Do you offer seasonal discounts?
+                            </button>
+                        </h2>
+                        <div id="price3" class="accordion-collapse collapse" data-bs-parent="#pricingAccordion">
+                            <div class="accordion-body">
+                                Yes! We often have seasonal promotions and special offers. Subscribe to our newsletter or follow our social media channels to stay updated on the latest deals and exclusive offers.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Support -->
+                <h2 class="section-title1 mt-5">Support & Troubleshooting</h2>
+                <p class="section-subtitle">Solutions to common issues and technical support</p>
+
+                <div class="accordion" id="supportAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sup1">
+                                My remote isn't working, what should I do?
+                            </button>
+                        </h2>
+                        <div id="sup1" class="accordion-collapse collapse" data-bs-parent="#supportAccordion">
+                            <div class="accordion-body">
+                                <strong>Step 1: Check the batteries</strong><br>
+                                Remove the battery cover from the back of the remote and ensure the positive and negative ends are correctly aligned. Replace batteries if they're faulty or depleted.
+                                <br><br>
+                                <strong>Step 2: Reconnect the remote</strong><br>
+                                • Turn off your fan<br>
+                                • Hold the OFF button on the remote<br>
+                                • Switch the fan ON while still holding the OFF button<br>
+                                • Release the button when you hear two beep sounds<br>
+                                • Your remote should now be connected!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sup2">
+                                The fan is showing signs of wobbling, how can I deal with it?
+                            </button>
+                        </h2>
+                        <div id="sup2" class="accordion-collapse collapse" data-bs-parent="#supportAccordion">
+                            <div class="accordion-body">
+                                <strong>Common causes and solutions:</strong>
+                                <br><br>
+                                <strong>1. Loosened Decorative Plate:</strong> Place your hand on the decorative plate and turn it clockwise to lock it against the fan body. This is the most common issue.
+                                <br><br>
+                                <strong>2. Loose Canopy:</strong> Simply loosen the canopy and adjust it to ensure proper alignment.
+                                <br><br>
+                                <strong>3. Manufacturing Defects:</strong> If the above solutions don't work, there may be an irregularity in machining or fitting. <strong>Contact our Customer Service Helpline immediately</strong> for priority support and resolution.
+                                <br><br>
+                                We implement strict quality control at all production stages. We guarantee prompt action for any unforeseen errors.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sup3">
+                                The fan is making strange noises, what should I do?
+                            </button>
+                        </h2>
+                        <div id="sup3" class="accordion-collapse collapse" data-bs-parent="#supportAccordion">
+                            <div class="accordion-body">
+                                BLDC fans should operate almost silently. If you hear unusual noises:
+                                <br><br>
+                                • Check if any part is loose or damaged<br>
+                                • Ensure proper installation and mounting<br>
+                                • Verify all bolts and connections are tight<br>
+                                • Contact our support team if the issue persists
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sup4">
+                                What is your warranty period?
+                            </button>
+                        </h2>
+                        <div id="sup4" class="accordion-collapse collapse" data-bs-parent="#supportAccordion">
+                            <div class="accordion-body">
+                                Please contact our customer service team for detailed information about warranty coverage on specific products. Warranty terms may vary based on product type and model.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact -->
+                <div class="contact-cta">
+                    <h3>Still need help?</h3>
+                    <p>Couldn't find the answer you're looking for? Our customer service team is here to help!</p>
+                    <a href="contact.html" class="btn-custom">
+                        <i class="fas fa-headset"></i> Contact Support
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals  -->
+    <div class="modal fade" id="wishlistModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><i class="bi bi-heart-fill text-danger me-2"></i>My Wishlist</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="list-item">
+                        <img src="./assets/images/fancard1.png" alt="King Model">
+                        <div class="list-item-info">
+                            <h6>King Model</h6>
+                            <p>Rs 10,900</p>
+                        </div>
+                        <div class="list-item-action">
+                            <button title="Remove"><i class="bi bi-trash"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">View Wishlist Page</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="compareModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><i class="bi bi-shuffle text-warning me-2"></i>Compare Products</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="list-item">
+                        <img src="./assets/images/fancard1.png" alt="King Model">
+                        <div class="list-item-info">
+                            <h6>King Model</h6>
+                            <p>Rs 10,900</p>
+                        </div>
+                        <div class="list-item-action">
+                            <button title="Remove"><i class="bi bi-trash"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Compare Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="cartModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><i class="bi bi-cart-fill text-success me-2"></i>Shopping Cart</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="list-item">
+                        <img src="./assets/images/fancard1.png" alt="King Model">
+                        <div class="list-item-info">
+                            <h6>King Model (48", Black)</h6>
+                            <p>Qty: 1 x Rs 10,900</p>
+                        </div>
+                        <div class="list-item-action">
+                            <button title="Remove"><i class="bi bi-trash"></i></button>
+                        </div>
+                    </div>
+                    <div class="text-end fw-bold mt-4 fs-5 text-success">
+                        Subtotal: Rs 35,900
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                    <button type="button" class="btn btn-success">Proceed to Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="profileModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><i class="bi bi-person-circle text-primary me-2"></i>My Account</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="mb-3">Welcome back, User!</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="#"><i class="bi bi-box-seam"></i> My Orders</a></li>
+                        <li class="list-group-item"><a href="#"><i class="bi bi-person-gear"></i> Profile Settings</a></li>
+                        <li class="list-group-item"><a href="#"><i class="bi bi-geo-alt"></i> Addresses</a></li>
+                        <li class="list-group-item"><a href="#"><i class="bi bi-box-arrow-right text-danger"></i> Logout</a></li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content custom-modal">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title1">Welcome back</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p class="hey"> Login to your Account</p>
+                    <form id="loginForm" class="login" novalidate>
+                        <input type="email" id="email" class="email" placeholder="Enter email" />
+                        <p id="emailMessage" class="error-message"></p>
+
+                        <div class="position-relative">
+                            <input type="password" id="pass" class="password" placeholder="Enter password" />
+                            <button type="button" class="show-password-btn" onclick="togglePassword()">
+                                <i class="fa fa-eye" id="toggleIcon"></i>
+                            </button>
+                        </div>
+                        <p id="passwordMessage" class="error-message"></p>
+
+                        <div class="d-flex align-items-center mt-3">
+                            <input type="checkbox" id="check" />
+                            <label for="check" class="rem">Remember me</label>
+                        </div>
+
+                        <button type="submit" class="btn-login">Login</button>
+                        
+                        <div id="loginSuccessMessage"></div>
+
+                        <p class="cont text-center">----- or continue with -----</p>
+
+                        <div class="d-flex justify-content-between">
+                            <button type="button" class="social-btn google" onclick="loginWithGoogle()"><i class="fab fa-google"></i> Google</button>
+                            <button type="button" class="social-btn git" onclick="loginWithGithub()"><i class="fab fa-github"></i> GitHub</button>
+                        </div>
+                    </form>
+                    <div class="reg">
+                        <p>Don't have an account? <a href="#" class="reg" id="reg1" data-bs-toggle="modal" data-bs-target="#registerModal">Sign-up</a></p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reg Modal -->
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content custom-modal">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title1">Create an account</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form id="registerForm" class="reg" novalidate>
+                    <div class="modal-body">
+                        <p class="hey">Register a New Account</p>
+
+                        <input type="text" id="regName" class="email" placeholder="Full Name" />
+                        <p id="nameMessage" class="error-message"></p>
+
+                        <input type="email" id="regEmail" class="email" placeholder="Enter email" />
+                        <p id="regEmailMessage" class="error-message"></p>
+
+                        <div class="position-relative">
+                            <input type="password" id="regPass" class="password" placeholder="Enter password"/>
+                            <button type="button" class="show-password-btn" onclick="toggleRegisterPassword()">
+                                <i class="fa fa-eye" id="toggleRegisterIcon"></i>
+                            </button>
+                        </div>
+                        <p id="regPasswordMessage" class="error-message"></p>
+
+                        <div class="position-relative">
+                            <input type="password" id="regPassConfirm" class="password" placeholder="Confirm password"/>
+                            <button type="button" class="show-password-btn" onclick="toggleRegisterConfirmPassword()">
+                                <i class="fa fa-eye" id="toggleRegisterConfirmIcon"></i>
+                            </button>
+                        </div>
+                        <p id="confirmMessage" class="error-message"></p>
+
+                        <button type="submit" class="btn-login">Register</button>
+                        
+                        <div id="registerSuccessMessage"></div>
+                    </div>
+                    <div class="login-back">
+                        <p>Already have an account?</p>
+                        <a href="#" class="login me-2" data-bs-toggle="modal" data-bs-target="#loginModal"><i class="fa fa-sign-in" aria-hidden="true"></i></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER -->
+  
+   <footer>
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-12 text-center">
+                    <h5>Follow Us</h5>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/" class="social-icon" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/spinify.pk/" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/" class="social-icon" title="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.whatsapp.com/" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <h5>Information</h5>
+                    <ul>
+                        <li><a href="about us.html">About Us</a></li>
+                        <li><a href="#">Delivery Information</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <h5>Customer Service</h5>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="sitemap.html">Site Map</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <h5>Extras</h5>
+                    <ul>
+                        <li><a href="#">Brands</a></li>
+                        <li><a href="#">Gift Certificates</a></li>
+                        <li><a href="#">Affiliate</a></li>
+                        <li><a href="#">Specials</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <h5>My Account</h5>
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Order History</a></li>
+                        <li><a href="#">Wish List</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      
+        <div class="footer-bottom">
+            <p>&copy; 2025 Spinify Fan Company. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    
+
+
+ 
+  
+ 
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="./assets/js/logic.js"> </script>
+
+</body>
+</html>
+
+
+
+
+
